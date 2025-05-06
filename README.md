@@ -13,7 +13,7 @@ A minimal, fast, and easy-to-understand thread pool implementation in **C**, des
 
 ## ⚙️ Compilation
 
-Use `gcc` with the `-pthread` flag:
+Use `gcc` with the `-lpthread` flag:
 
 ```bash
-gcc threadpool.c -o threadpool -pthread
+gcc threadpool.c -o threadpool -lpthread
